@@ -1,0 +1,42 @@
+body{
+
+    background-color: #2d333b;
+
+}
+
+h1{
+    color: #cdd9e5;
+    font-family: monospace;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 15px;
+    position: static;
+}
+
+h2{
+    color: #cdd9e5;
+    font-family: monospace;
+}
+
+p{
+    color: #cdd9e5;
+    font-family: monospace;
+}
+
+.AboutMe{
+
+    margin-left: 150px;
+    margin-top: 200px;
+    display: inline-block;
+    padding: 100px;
+    margin-right: 100px;
+}
+
+.profPic{
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    display: inline-block;
+    align-items: left;
+}
+
