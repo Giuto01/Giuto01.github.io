@@ -1,6 +1,7 @@
 body {
   background-color: #2d333b;
   margin: 0;
+}
 
 h1 {
   color: #cdd9e5;
@@ -53,3 +54,4 @@ p {
 .imgHand {
   display: inline-block;
 }
+
