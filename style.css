@@ -1,6 +1,5 @@
 body {
   background-color: #2d333b;
-  margin: 0;
 }
 
 h1 {
@@ -16,16 +15,23 @@ h2 {
   color: #cdd9e5;
   font-family: monospace;
   text-align: left;
+}
+
+.aboutMe {
   position: absolute;
   margin-top: 5vw;
   margin-left: 4vw;
   white-space: nowrap;
 }
 
+.langAndTools {
+  white-space: nowrap;
+}
+
 p {
   color: #cdd9e5;
   font-family: monospace;
-  text-align: left;  
+  text-align: left;
   margin-left: 6%;
   font-size: 15px;
 }
@@ -40,7 +46,7 @@ p {
 .AboutMe {
   margin-top: 120px;
   text-align: right;
-  position: absolute;
+  position: relative;
   display: flex;
   align-items: flex-start;
 }
@@ -55,11 +61,69 @@ p {
   display: inline-block;
 }
 
-.social{
+.social {
   display: flex;
   align-items: flex-start;
   position: relative;
   float: right;
-  margin-top: 1.5vw;
   margin-right: 2vw;
+  margin-top: 50px;
+}
+
+.landingPage {
+  border: 1px solid transparent;
+  position: relative;
+}
+
+.tools {
+  margin-top: 300px;
+  display: flex;
+  display: inline-block;
+}
+
+.langAndTools {
+  position: absolute;
+  margin-left: 4vw;
+  white-space: nowrap;
+  bottom: 250px;
+}
+
+.imgTools {
+  display: inline-block;
+  position: relative;
+  margin-bottom: -7px;
+  margin-left: -10px;
+}
+
+.stiTools {
+  position: relative;
+}
+
+.stickerTools {
+  position: absolute;
+  margin-left: 4vw;
+  display: flex;
+  display: inline-block;
+  margin-top: -240px;
+}
+
+.learning {
+  position: absolute;
+  margin-left: 4vw;
+  white-space: nowrap;
+  bottom: 90px;
+}
+
+.sickersToolsLeaning {
+  position: absolute;
+  margin-left: 4vw;
+  display: flex;
+  display: inline-block;
+  margin-top: -100px;
+}
+.imgLearning {
+  display: inline-block;
+  position: relative;
+  margin-bottom: -17px;
+  margin-left: -10px;
 }
