@@ -62,12 +62,12 @@ p {
 }
 
 .social {
-  display: flex;
+  display: grid;
   align-items: flex-start;
-  position: relative;
+  position: sticky;
   float: right;
-  margin-right: 2vw;
-  margin-top: 50px;
+  margin-right: 1vw;
+  margin-top: -60px;
 }
 
 .landingPage {
