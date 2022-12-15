@@ -4,52 +4,70 @@
   <head>
     <meta charset="utf-8" />
     <title>Personal Website</title>
+    <link
+      rel="icon"
+      href="https://img.icons8.com/emoji/48/null/man-technologyst.png"
+      type="image/icon type"
+    />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile-style.css" />
+    <link
+      rel="stylesheet"
+      media="(min-width: 900px)"
+      href="desktop-style.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
-    <h1>Hello world</h1>
-    <img
-      src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
-      width="30"
-      class="imgHand"
-    />
+    <h1 class="helloWorld">
+      Hello world
+      <img
+        src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
+        width="30"
+        class="imgHand"
+      />
+      {
+    </h1>
 
-    <div class="landingPage">
-      <h2 class="aboutMe">
-        About me: <img
-        src="https://media.giphy.com/media/VDNDX5BhKKz0YsJkl0/giphy.gif"
-        width="30" class="imgEyes" " />
-      </h2>
+    <div class="social">
+      <a
+        href="https://www.instagram.com/_.prsvt/?hl=it"
+        class="socialLink"
+        target="_blank"
+      >
+        <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"
+      /></a>
+      <a href="https://twitter.com/VitoProscia_" class="socialLink"
+        ><img src="https://img.icons8.com/color/48/000000/twitter--v1.png"
+      /></a>
+      <a
+        href="https://discord.com/channels/825083832977850418"
+        class="socialLink"
+        ><img src="https://img.icons8.com/fluency/48/000000/discord-logo.png"
+      /></a>
+      <a href="https://github.com/Giuto01" class="socialLink"
+        ><img src="https://img.icons8.com/fluency/48/000000/github.png"
+      /></a>
+      <a href="https://t.me/Giuto01" class="socialLink"
+        ><img src="https://img.icons8.com/color/48/000000/telegram-app--v1.png"
+      /></a>
+    </div>
 
-      <div class="social">
-        <a
-          href="https://www.instagram.com/_.prsvt/?hl=it"
-          class="socialLink"
-          target="_blank"
-        >
-          <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"
-        /></a>
-        <a href="https://twitter.com/VitoProscia_" class="socialLink"
-          ><img src="https://img.icons8.com/color/48/000000/twitter--v1.png"
-        /></a>
-        <a
-          href="https://discord.com/channels/825083832977850418"
-          class="socialLink"
-          ><img src="https://img.icons8.com/fluency/48/000000/discord-logo.png"
-        /></a>
-        <a href="https://github.com/Giuto01" class="socialLink"
-          ><img src="https://img.icons8.com/fluency/48/000000/github.png"
-        /></a>
-        <a href="https://t.me/Giuto01" class="socialLink"
-          ><img
-            src="https://img.icons8.com/color/48/000000/telegram-app--v1.png"
-        /></a>
-      </div>
+    <div class="AboutMe">
+      <article>
+        <h2 class="aboutMeTitle">
+          About me:
+          <img
+            src="https://media.giphy.com/media/VDNDX5BhKKz0YsJkl0/giphy.gif"
+            width="30"
+            class="stikers"
+            style="margin-bottom: -8px"
+          />
+          {
+        </h2>
 
-      <div class="AboutMe">
-        <p>
+        <p class="aboutMeDesc">
           <picture>
             <img src="img/Image.png" class="profPic" />
           </picture>
@@ -70,92 +88,114 @@
           master degree, and after embarking on a research path. My other
           interest relate to music, swimming, videogames and reading
         </p>
-      </div>
 
-      <div class="tools">
-        <h2 class="langAndTools">
+        <h2>}</h2>
+      </article>
+    </div>
+    <div class="tools">
+      <div class="langAndToolsFIN">
+        <h2>
           Languages and tools:
           <img
             src="https://media.giphy.com/media/d3hGuic6x6e5mASmKR/giphy.gif"
             width="40"
-            class="imgTools"
+            class="stikers"
           />
         </h2>
-        <div class="stickerTools">
-          <a href="https://en.wikipedia.org/wiki/HTML5"
-            ><img
-              src="https://img.icons8.com/color/48/000000/html-5--v1.png"
-              class="stiTools"
-          /></a>
-          <a href="https://en.wikipedia.org/wiki/CSS"
-            ><img
-              src="https://img.icons8.com/color/48/000000/css3.png"
-              class="stiTools"
-          /></a>
-          <a href="https://www.python.org/"
-            ><img
-              src="https://img.icons8.com/color/48/7950F2/python--v1.png"
-              class="stiTools"
-          /></a>
-          <a href="https://en.wikipedia.org/wiki/C%2B%2B"
-            ><img
-              src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
-              class="stiTools"
-          /></a>
-          <a href="https://www.java.com/en/download/help/whatis_java.html"
-            ><img
-              src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
-              class="stiTools"
-          /></a>
-          <a href="https://it.mathworks.com/products/matlab.html"
-            ><img
-              src="https://img.icons8.com/fluency/48/000000/matlab.png"
-              class="stiTools"
-          /></a>
-          <a href="https://www.mysql.com/"
-            ><img
-              src="https://img.icons8.com/color/48/FA5252/mysql-logo.png"
-              class="stiTools"
-          /></a>
-          <a href="https://git-scm.com/"
-            ><img
-              src="https://img.icons8.com/color/48/000000/git.png"
-              class="stiTools"
-          /></a>
-          <a href="https://en.wikipedia.org/wiki/Linux"
-            ><img
-              src="https://img.icons8.com/color/48/000000/linux--v1.png"
-              class="stiTools"
-          /></a>
-          <a href="https://plantuml.com/"
-            ><img
-              src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/48/000000/external-flow-interface-kiranshastry-lineal-color-kiranshastry.png"
-              class="stiTools"
-          /></a>
-          <a href="https://numpy.org/"
-            ><img
-              src="https://img.icons8.com/color/48/000000/numpy.png"
-              class="stiTools"
-          /></a>
-          <a
-            href="https://www.latex-project.org/about/#:~:text=LaTeX%2C%20which%20is%20pronounced%20%C2%ABLah,is%20not%20a%20word%20processor!"
-            ><img
-              src="https://img.icons8.com/color/48/000000/latex.png"
-              class="stiTools"
-          /></a>
+        <a href="https://en.wikipedia.org/wiki/HTML5"
+          ><img
+            src="https://img.icons8.com/color/48/000000/html-5--v1.png"
+            class="stiTools"
+        /></a>
+        <a href="https://en.wikipedia.org/wiki/CSS"
+          ><img
+            src="https://img.icons8.com/color/48/000000/css3.png"
+            class="stiTools"
+        /></a>
+        <a href="https://www.python.org/"
+          ><img
+            src="https://img.icons8.com/color/48/7950F2/python--v1.png"
+            class="stiTools"
+        /></a>
+        <a href="https://en.wikipedia.org/wiki/C%2B%2B"
+          ><img
+            src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+            class="stiTools"
+        /></a>
+        <a href="https://www.java.com/en/download/help/whatis_java.html"
+          ><img
+            src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+            class="stiTools"
+        /></a>
+        <a href="https://it.mathworks.com/products/matlab.html"
+          ><img
+            src="https://img.icons8.com/fluency/48/000000/matlab.png"
+            class="stiTools"
+        /></a>
+        <a href="https://www.mysql.com/"
+          ><img
+            src="https://img.icons8.com/color/48/FA5252/mysql-logo.png"
+            class="stiTools"
+        /></a>
+        <a href="https://git-scm.com/"
+          ><img
+            src="https://img.icons8.com/color/48/000000/git.png"
+            class="stiTools"
+        /></a>
+        <a href="https://en.wikipedia.org/wiki/Linux"
+          ><img
+            src="https://img.icons8.com/color/48/000000/linux--v1.png"
+            class="stiTools"
+        /></a>
+        <a href="https://plantuml.com/"
+          ><img
+            src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/48/000000/external-flow-interface-kiranshastry-lineal-color-kiranshastry.png"
+            class="stiTools"
+        /></a>
+        <a href="https://numpy.org/"
+          ><img
+            src="https://img.icons8.com/color/48/000000/numpy.png"
+            class="stiTools"
+        /></a>
+        <a
+          href="https://www.latex-project.org/about/#:~:text=LaTeX%2C%20which%20is%20pronounced%20%C2%ABLah,is%20not%20a%20word%20processor!"
+          ><img
+            src="https://img.icons8.com/color/48/000000/latex.png"
+            class="stiTools"
+        /></a>
 
-          <a href="https://www.raspberrypi.org/"
-            ><img
-              src="https://img.icons8.com/color/48/000000/raspberry-pi.png"
-              class="stiTools"
-          /></a>
-        </div>
+        <a href="https://www.raspberrypi.org/"
+          ><img
+            src="https://img.icons8.com/color/48/000000/raspberry-pi.png"
+            class="stiTools"
+        /></a>
+
+        <a href="https://www.docker.com/"
+          ><img
+            src="https://img.icons8.com/fluency/48/null/docker.png"
+            class="stiTools"
+        /></a>
+
+        <a href="https://lucene.apache.org/"
+          ><img
+            src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/null/external-apache-a-free-and-open-source-cross-platform-web-server-software-logo-color-tal-revivo.png"
+            class="stiTools"
+        /></a>
+
+        <a href="https://www.elastic.co/"
+          ><img
+            src="https://img.icons8.com/color/48/null/elasticsearch.png"
+            class="stiTools"
+        /></a>
+      </div>
+
+      <div class="learningFIN">
         <h2 class="learning">
           Learning:
           <img
             src="https://media.giphy.com/media/Vbc33O3DoedXa0O6Pj/giphy.gif"
             width="40"
-            class="imgLearning"
+            class="stikers"
           />
         </h2>
 
@@ -167,13 +207,15 @@
             ><img src="https://img.icons8.com/color/48/000000/bootstrap.png"
           /></a>
         </div>
+      </div>
 
-        <h2 class="softwareMethod">
+      <div class="softwareMetodologist">
+        <h2>
           Software methodologist:
           <img
             src="https://media.giphy.com/media/MRjM2jSp4V7vrlyWGY/giphy.gif"
             width="40"
-            class="imgLearning"
+            class="stikers"
           />
         </h2>
 
@@ -183,7 +225,8 @@
             <a href="https://agilemanifesto.org/"
               >SCRUM<img
                 src="https://img.icons8.com/external-flaticons-flat-flat-icons/48/000000/external-scrum-agile-flaticons-flat-flat-icons-2.png"
-                class="workImg"
+                class="stikers"
+                style="margin-left: 10px"
               />
             </a>
           </h3>
@@ -199,104 +242,44 @@
           </h3>
         </div>
       </div>
+    </div>
 
-      <div class="RecentRepo">
-        <h2 class="recentAct">
-          Recent activity: <img
-          src="https://media.giphy.com/media/YatMYxMwKKoPNPMNEJ/giphy.gif"
-          width="35" class="imgEyes" " />
-        </h2>
+    <div class="recentProjcts" data-aos="zoom-in">
+      <h2>Recent projects:</h2>
 
-        <div class="repo">
-          <h3>
-            <img
-              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB+klEQVRoge2ZP0vDQBjGnys2FHTqqB+hOoiLTWNKXergR6ibiH8+gqCD+A0cBDf9CDq4SIdcW1B0i4uDLuqYQbO0Sc6hFUJpzaW5JA3eDwJ5ycvd83BvcuQ9QCL53xDeRNM0FcuydgA0ACwCmI1NlQ9N0/7UOMMzCKV03rKsGwDLQlQJJBeUYJqmAmAqxQMcBgZlM5XiAb4SagzF1wB2NU37GJVMKWX+eLiGwz4PgsdAyR/kcrk9VVVHik+DwBICMOcPVFV9j0nLRPAYmGqkgbTJvAGunTgKzWZzRlGUQwDodrunoseP3UA+nzcYY6uD+w3R4ydRQqtj7oWQ+XdAGuDgG8D24PoSPXisLzFj7N7zvEa1Wn0BgE6nc+e67iWANVFzxLUCDoBjx3Eqv+IBoFwuv/V6vXUAR4OcyMSxAq+e523put4a9bBWqzkATlqt1i1j7CrqZMJXwLbtpXHi/VQqlQfbtleizifcQL1et+PIHYf8jKaNNJA20kDahN7IKKUG+o2uRHqjQUyyE2vCVUQg8yWUeQOTlNCfvdGkCW0gi71R4X9RIuEx8OwPGGPn7XZ7ISY9oQk8IzMM44AQcpaEmFEEnZEFrkCxWLwghDyJkySWQAOlUqnruu4mgMcE9ISGax/Qdf2zUCiUCSH7jLE2+q0SiUQyBfwAb7aN4UcjViUAAAAASUVORK5CYII="
-              width="20"
-              class="imgBook"
-            />
-
-            <a
-              href="https://github.com/Giuto01/CLIpasswordMaker"
-              class="linkGithub"
-              >CLIpasswordMaker</a
-            >
-          </h3>
-          <p class="repoDesc">Password maker whith command line interface</p>
-
-          <span
-            class="repo-language-color"
-            style="background-color: #3572a5"
-          ></span>
-          <p class="languageName">Python</p>
-        </div>
-        <div class="repo">
-          <h3>
-            <img
-              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB+klEQVRoge2ZP0vDQBjGnys2FHTqqB+hOoiLTWNKXergR6ibiH8+gqCD+A0cBDf9CDq4SIdcW1B0i4uDLuqYQbO0Sc6hFUJpzaW5JA3eDwJ5ycvd83BvcuQ9QCL53xDeRNM0FcuydgA0ACwCmI1NlQ9N0/7UOMMzCKV03rKsGwDLQlQJJBeUYJqmAmAqxQMcBgZlM5XiAb4SagzF1wB2NU37GJVMKWX+eLiGwz4PgsdAyR/kcrk9VVVHik+DwBICMOcPVFV9j0nLRPAYmGqkgbTJvAGunTgKzWZzRlGUQwDodrunoseP3UA+nzcYY6uD+w3R4ydRQqtj7oWQ+XdAGuDgG8D24PoSPXisLzFj7N7zvEa1Wn0BgE6nc+e67iWANVFzxLUCDoBjx3Eqv+IBoFwuv/V6vXUAR4OcyMSxAq+e523put4a9bBWqzkATlqt1i1j7CrqZMJXwLbtpXHi/VQqlQfbtleizifcQL1et+PIHYf8jKaNNJA20kDahN7IKKUG+o2uRHqjQUyyE2vCVUQg8yWUeQOTlNCfvdGkCW0gi71R4X9RIuEx8OwPGGPn7XZ7ISY9oQk8IzMM44AQcpaEmFEEnZEFrkCxWLwghDyJkySWQAOlUqnruu4mgMcE9ISGax/Qdf2zUCiUCSH7jLE2+q0SiUQyBfwAb7aN4UcjViUAAAAASUVORK5CYII="
-              width="20"
-              class="imgBook"
-            />
-            <a
-              href="https://github.com/softeng2122-inf-uniba/progetto2122-minsky"
-              class="linkGithub"
-            >
-              progetto2122-minsky</a
-            >
-          </h3>
-          <p class="repoDesc">
-            progetto2122-minsky created by GitHub Classroom
-          </p>
-          <span
-            class="repo-language-color"
-            style="background-color: #b07219"
-          ></span>
-          <p class="languageName">Java</p>
-        </div>
-        <div class="repo">
-          <h3>
-            <img
-              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB+klEQVRoge2ZP0vDQBjGnys2FHTqqB+hOoiLTWNKXergR6ibiH8+gqCD+A0cBDf9CDq4SIdcW1B0i4uDLuqYQbO0Sc6hFUJpzaW5JA3eDwJ5ycvd83BvcuQ9QCL53xDeRNM0FcuydgA0ACwCmI1NlQ9N0/7UOMMzCKV03rKsGwDLQlQJJBeUYJqmAmAqxQMcBgZlM5XiAb4SagzF1wB2NU37GJVMKWX+eLiGwz4PgsdAyR/kcrk9VVVHik+DwBICMOcPVFV9j0nLRPAYmGqkgbTJvAGunTgKzWZzRlGUQwDodrunoseP3UA+nzcYY6uD+w3R4ydRQqtj7oWQ+XdAGuDgG8D24PoSPXisLzFj7N7zvEa1Wn0BgE6nc+e67iWANVFzxLUCDoBjx3Eqv+IBoFwuv/V6vXUAR4OcyMSxAq+e523put4a9bBWqzkATlqt1i1j7CrqZMJXwLbtpXHi/VQqlQfbtleizifcQL1et+PIHYf8jKaNNJA20kDahN7IKKUG+o2uRHqjQUyyE2vCVUQg8yWUeQOTlNCfvdGkCW0gi71R4X9RIuEx8OwPGGPn7XZ7ISY9oQk8IzMM44AQcpaEmFEEnZEFrkCxWLwghDyJkySWQAOlUqnruu4mgMcE9ISGax/Qdf2zUCiUCSH7jLE2+q0SiUQyBfwAb7aN4UcjViUAAAAASUVORK5CYII="
-              width="20"
-              class="imgBook"
-            />
-            <a
-              href="https://github.com/Numerical-calculus-algorithms"
-              class="linkGithub"
-            >
-              Numerical-calculus-algorithms</a
-            >
-          </h3>
-          <p class="repoDesc">
-            algorithms studied in the Numerical Calculus 2020-2021
-          </p>
-          <span
-            class="repo-language-color"
-            style="background-color: #e16737"
-          ></span>
-          <p class="languageName">Matlab</p>
-        </div>
-
-        <div class="repo">
-          <h3>
-            <img
-              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB+klEQVRoge2ZP0vDQBjGnys2FHTqqB+hOoiLTWNKXergR6ibiH8+gqCD+A0cBDf9CDq4SIdcW1B0i4uDLuqYQbO0Sc6hFUJpzaW5JA3eDwJ5ycvd83BvcuQ9QCL53xDeRNM0FcuydgA0ACwCmI1NlQ9N0/7UOMMzCKV03rKsGwDLQlQJJBeUYJqmAmAqxQMcBgZlM5XiAb4SagzF1wB2NU37GJVMKWX+eLiGwz4PgsdAyR/kcrk9VVVHik+DwBICMOcPVFV9j0nLRPAYmGqkgbTJvAGunTgKzWZzRlGUQwDodrunoseP3UA+nzcYY6uD+w3R4ydRQqtj7oWQ+XdAGuDgG8D24PoSPXisLzFj7N7zvEa1Wn0BgE6nc+e67iWANVFzxLUCDoBjx3Eqv+IBoFwuv/V6vXUAR4OcyMSxAq+e523put4a9bBWqzkATlqt1i1j7CrqZMJXwLbtpXHi/VQqlQfbtleizifcQL1et+PIHYf8jKaNNJA20kDahN7IKKUG+o2uRHqjQUyyE2vCVUQg8yWUeQOTlNCfvdGkCW0gi71R4X9RIuEx8OwPGGPn7XZ7ISY9oQk8IzMM44AQcpaEmFEEnZEFrkCxWLwghDyJkySWQAOlUqnruu4mgMcE9ISGax/Qdf2zUCiUCSH7jLE2+q0SiUQyBfwAb7aN4UcjViUAAAAASUVORK5CYII="
-              width="20"
-              class="imgBook"
-            />
-            <a href="https://github.com/Giuto01/Battleship" class="linkGithub">
-              Battleship
-            </a>
-          </h3>
-          <p class="repoDesc">
-            CLI application inspired by the game of battleship
-          </p>
-          <span
-            class="repo-language-color"
-            style="background-color: #555555"
-          ></span>
-          <p class="languageName">C</p>
-        </div>
+      <div class="recent" id="project1">
+        <h3 class="projectTitle">
+          <a href="https://github.com/Giuto01/CLIpasswordMaker"
+            >CLIpasswordMaker</a
+          >
+        </h3>
+        <p class="projeecDesc">Password maker whith command line interface</p>
+      </div>
+      <div class="recent" id="project2">
+        <h3 class="projectTitle">
+          <a href="https://github.com/softeng2122-inf-uniba/progetto2122-minsky"
+            >progetto2122-minsky</a
+          >
+        </h3>
+        <p class="projeecDesc">
+          progetto2122-minsky created by GitHub Classroom
+        </p>
+      </div>
+      <div class="recent" id="project3">
+        <h3 class="projectTitle">
+          <a href="https://github.com/Giuto01/Battleship">Battleship</a>
+        </h3>
+        <p class="projeecDesc">
+          CLI application inspired by the game of battleship
+        </p>
       </div>
     </div>
+
+    <h1 class="helloWorld">}</h1>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
