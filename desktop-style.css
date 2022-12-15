@@ -1,0 +1,177 @@
+body {
+  background-image: url("img/backImage.png");
+  background-size: cover;
+}
+
+.helloWorld {
+  color: #cdd9e5;
+  font-family: monospace;
+  display: inline-block;
+  position: relative;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.profPic {
+  width: 220px;
+  height: 220px;
+  position: relative;
+  margin-top: -3vw;
+  float: right;
+}
+.AboutMe {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border-radius: 20px;
+  font-family: monospace;
+  font-size: 15px;
+  color: #cdd9e5;
+  margin-top: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  position: relative;
+  animation: zoom-in 1s ease;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(0.5, 0.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.aboutMeDesc {
+  margin-left: 50px;
+}
+
+.stikers {
+  display: inline-block;
+  position: relative;
+  margin-bottom: -10px;
+}
+
+.imgHand {
+  display: inline-block;
+}
+
+.tools {
+  display: inline-flex;
+  height: auto;
+  margin-top: 100px;
+  border-radius: 15px;
+  font-family: monospace;
+  font-size: 15px;
+  color: #cdd9e5;
+  margin-right: 60px;
+  padding: 20px;
+  position: relative;
+  animation: zoom-in 1s ease;
+}
+
+.langAndToolsFIN,
+.learningFIN,
+.softwareMetodologist {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border-radius: 20px;
+  font-family: monospace;
+  font-size: 15px;
+  color: #cdd9e5;
+  padding: 20px;
+  position: relative;
+  margin-left: 80px;
+}
+
+a {
+  color: #539bf5;
+}
+
+.social {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border-radius: 20px;
+  padding: 10px;
+  position: relative;
+  margin-left: 80%;
+  margin-top: -60px;
+  margin-right: 90px;
+}
+
+.recentProjcts {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border-radius: 20px;
+  font-family: monospace;
+  font-size: 15px;
+  color: #cdd9e5;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+  position: relative;
+  align-items: center;
+}
+
+.recent {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 150px;
+  width: 300px;
+  height: 150px;
+  padding: 20px;
+  display: inline-block;
+  position: relative;
+}
+
+.projectTitle {
+  font-family: monospace;
+  font-size: 15px;
+  color: #cdd9e5;
+}
+
+.projectDesc {
+  font-family: monospace;
+  font-size: 15px;
+  color: #cdd9e5;
+}
